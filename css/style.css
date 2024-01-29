@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* top banner css code start from here  */
+.container-fluid .banner_image {
+    background-image: url(../images/bannaer\ image\ developer.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 700px;
+}
+.container-fluid .banner_image .container .banner_heading h1 {
+    color: #a16b9b;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: cursive;
+    text-align: center;
+}
+@media(max-width:768px){
+    .container-fluid .banner_image .container .banner_heading h1 {
+       font-size: 42px;
+    }
+}
+.container-fluid .banner_image .container .banner_heading span {
+    font-size: 70px;
+    font-family: cursive;
+
+}
+/* top banner css code end here  */
+
+
+/* black box css code start from here  */
+.container-fluid .container .black_box {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-fluid .container .black_box h1{
+    font-size: 55px;
+    color: #fff;
+}
+@media(max-width:900px){
+    .container-fluid .container .black_box h1 {
+       font-size: 29px;
+       text-align: center;
+    }
+}
+.container-fluid .container .black_box .you {
+    font-size: 90px;
+    margin-left: 10px;
+}
+/* black box css code end here  */
+
+/* career section css code start from here  */
+.contanier-fluid .container .row .web_development .web_section {
+    border: 1px solid #8080808f;
+    border-radius: 15px;
+}
+.contanier-fluid .container .row .web_development .web_section .web_image img {
+    width: 100%;
+}
+.contanier-fluid .container .row .web_development .web_section .web_heading {
+    margin: 10px 0px;
+}
+.contanier-fluid .container .row .web_development .web_section .web_heading h5 {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 600; 
+    color: #a16b9b;
+}
+.contanier-fluid .container .row .web_development .web_section .web_para p {
+    font-size: 13px;
+    line-height: 22px;
+    padding: 0px 10px;
+    text-align: justify;
+    color: #3060b7;
+}
+.contanier-fluid .container .row .web_development .web_section .web_apply_btn {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0px;
+}
+.contanier-fluid .container .row .web_development .web_section .web_apply_btn a {
+    font-size: 20px;
+    text-decoration: none;
+    padding: 2px 20px;
+    border: 1px solid #a16b9b;
+    color: #3060b7;
+    border-radius: 15px;
+}
+.contanier-fluid .container .row .web_development .web_section .web_apply_btn a:hover{
+    background-color: #3060b7;
+    color: #fff;
+    border: 1px solid #3060b7;
+}
+/* career section css code end here  */
+
+/* footer section code start from here  */
+.container-fluid .container .row .contact .contact_heading h1 {
+    font-size: 50px;
+    color: #a16b9b;
+    font-weight: 600;
+    font-family: math;
+}
+@media(max-width:900px){
+    .container-fluid .container .row .contact .contact_heading h1 {
+      text-align: center;
+    }
+} 
+.container-fluid .container .row .contact .contact_info span {
+    font-size: 14px;
+    color: grey;
+    font-weight: 500;
+    
+}
+
+.container-fluid .container .row .contact .contact_social {
+    display: flex;
+    margin: 15px 0px ;
+}
+.container-fluid .container .row .contact .contact_social a {
+    width: 40px;
+    height: 40px;
+    background-color: #f8f9fa;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #808080a8;
+    margin-right: 15px;
+    color: #3060b7;
+    text-decoration: none;
+}
+.container-fluid .container .row .contact .contact_social .fa {
+    font-size: 20px;
+}
+.container-fluid .container .row .about_me .about_me_heading h1 {
+    font-size: 50px;
+    color: #3060b7;
+    font-weight: 600;
+    font-family: math;
+}
+@media(max-width:900px){
+    .container-fluid .container .row .about_me .about_me_heading h1 {
+      text-align: center;
+    }
+} 
+.container-fluid .container .row .about_me .about_me_info p {
+    font-size: 16px;
+    color: grey;
+    line-height: 30px;    
+}
+.container-fluid .container .row .about_me .thank_you span {
+    font-size: 30px;
+    color: #a16b9b;
+    font-family: math;
+}
+@media(max-width:900px){
+    .container-fluid .container .row .about_me .thank_you span {
+      text-align: center;
+      display: block;
+    }
+} /* footer section code end here  */
+
+/* last section code start from here  */
+.container-fluid .last {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-fluid .last span {
+    font-size: 20px;
+    margin: 30px 0px;
+    color: #fff;
+}
+/* last section code end here  */
